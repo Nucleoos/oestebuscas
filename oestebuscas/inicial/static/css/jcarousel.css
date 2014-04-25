@@ -1,0 +1,29 @@
+.jcarousel-direction-rtl {direction: rtl;}
+.jcarousel-clip {overflow: hidden; }
+.jcarousel-item {width: 179px; height: 150px; text-align: center; margin: 0 5px 0 5px;}
+.jcarousel-item span {display: block; font-size: 14px;}
+.jcarousel-item-horizontal {color: #000;}
+.jcarousel-clip-horizontal { width: 949px;}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+    position: absolute;
+    top: 50px;
+    right: -5px;
+    width: 19px;
+    height: 41px;
+    cursor: pointer;
+    background: transparent url(static/img/carousel-nav-next.png) no-repeat;
+}
+
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: 50px;
+    left: -5px;
+    width: 19px;
+    height: 41px;
+    cursor: pointer;
+    background: transparent url(static/img/carousel-nav-prev.png) no-repeat;
+}

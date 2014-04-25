@@ -1,0 +1,22 @@
+﻿#galeria-imagem-box {height: 150px; overflow: hidden; margin: 0; padding: 0; top: 0; }
+       
+
+        
+#list-ntc a {display: table; margin-top: 20px; height: 115px; overflow: hidden;}
+#list-ntc a .descr {font-size: 17px; font-weight: bold; color: #E99130; }
+#list-ntc a .rsm {font-size: 15px; color: #666;}
+#list-ntc a .img-cntt {float: left; border: none; margin: 0 10px 10px 0; overflow: hidden; max-width: 140px; max-height: 100px; background: none;}
+        
+#list-evt a {margin-top: 20px; display: table;}
+#list-evt a .data {background-color: #E99130; float: left; margin: 0 10px 10px 0; text-align: center; color: #fff; font-size: 25px; width: 77px; height: 70px; font-weight: bold;}
+#list-evt a .data span {line-height: 25px;}
+#list-evt a .data .dia {border-bottom: solid 1px #fff; width: 40px; display: block; margin: auto; padding: 5px 0 5px 0;}
+#list-evt a .descr {font-size: 20px; font-weight: bold; color: #666; line-height: 25px;}
+#list-evt a .local {font-size: 20px; color: #666; line-height: 25px;}
+        
+#list-vid a {margin-top: 10px; display: table;}
+#list-vid a .img-cntt {float: left; border: none; margin: 0 10px 0px 0; overflow: hidden; width: 120px; height: 67px;}
+#list-vid a .descr {color: #333; font-size: 16px;}
+#list-vid iframe {margin-top: 20px;}
+
+.box-decorated .center-box .button {margin-left: -100px; left: 50%; width: 200px;}
