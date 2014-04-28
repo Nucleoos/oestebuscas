@@ -1,0 +1,5 @@
+django
+dj-­‐database-­‐url==0.2.1
+Unipath==1.0
+gunicorn
+psycopg2

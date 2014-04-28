@@ -21,7 +21,7 @@ body {font-family: "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Arial"; font-s
 #btnLogin {position: absolute; top: 10px; right: 40px;}
 
 .user-nav-box {height: 40px; }
-.user-nav-box ul.usuario-nav-ul {background: url(../image/bkg-user-nav.png) no-repeat; width: 500px; height: 33px; position: absolute; right: 0; padding-left: 40px; top: 8px; padding-top: 2px;}
+.user-nav-box ul.usuario-nav-ul {background: url(../img/bkg-user-nav.png) no-repeat; width: 500px; height: 33px; position: absolute; right: 0; padding-left: 40px; top: 8px; padding-top: 2px;}
 .user-nav-box ul.usuario-nav-ul li {color: #CCC; font-size: 12px; padding-top: 5px; display: block; float: left; position: relative;}
 .user-nav-box ul.usuario-nav-ul li a {color: #00CCFF; padding: 2px 5px 2px 5px;}
 .user-nav-box ul.usuario-nav-ul li span {padding-top: 2px;}
@@ -30,8 +30,8 @@ body {font-family: "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Arial"; font-s
 .user-nav-box ul.usuario-nav-ul li.nome {width: 220px;}
 .user-nav-box ul.usuario-nav-ul li.nome span {width: 185px; display: inline-block; overflow: hidden; height: 16px;}
 .user-nav-box ul.usuario-nav-ul li.usuario-gerenciar {padding-top: 5px; padding-left: 5px; height: 27px; position: absolute; right: 1px; top: 0;}
-.user-nav-box ul.usuario-nav-ul li.usuario-gerenciar:hover {background: url(../image/bkg-user-nav-ger-hover.png) no-repeat center right;}
-.user-nav-box ul.usuario-nav-ul li #usuario-gerenciar span {background: url(../image/user-nav-ger-icon.png) no-repeat right 8px ; padding-right: 18px; font-size: 16px; font-weight: bold; color: #fff;} 
+.user-nav-box ul.usuario-nav-ul li.usuario-gerenciar:hover {background: url(../img/bkg-user-nav-ger-hover.png) no-repeat center right;}
+.user-nav-box ul.usuario-nav-ul li #usuario-gerenciar span {background: url(../img/user-nav-ger-icon.png) no-repeat right 8px ; padding-right: 18px; font-size: 16px; font-weight: bold; color: #fff;}
 .user-nav-box ul.usuario-nav-ul li.usuario-gerenciar ul {position: absolute; top: 32px; right: 0; background-color: #353D47; z-index: 99999; display: none; width: 240px; padding: 5px;}
 .user-nav-box ul.usuario-nav-ul li.usuario-gerenciar ul li {float: left; width: 120px; font-size: 14px; margin: 0; padding: 0;}
 .user-nav-box ul.usuario-nav-ul li.usuario-gerenciar ul li.grd {width: 240px;}
@@ -39,17 +39,17 @@ body {font-family: "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Arial"; font-s
 .user-nav-box ul.usuario-nav-ul li.usuario-gerenciar ul li a:hover {background-color: #576575;}
 .user-nav-box ul.usuario-nav-ul li.usuario-gerenciar ul li a span {height: 22px; display: block; padding-top: 8px; margin: 0; background-repeat: no-repeat; background-position: center left; padding-left: 30px;}
 
-.user-nav-emp-icon {background-image: url(../image/user-nav-emp-icon.png);}
-.user-nav-ami-icon {background-image: url(../image/user-nav-ami-icon.png);}
-.user-nav-prod-icon {background-image: url(../image/user-nav-prod-icon.png);}
-.user-nav-serv-icon {background-image: url(../image/user-nav-serv-icon.png);}
-.user-nav-vid-icon {background-image: url(../image/user-nav-vid-icon.png);}
-.user-nav-eve-icon {background-image: url(../image/user-nav-eve-icon.png);}
-.user-nav-img-icon {background-image: url(../image/user-nav-img-icon.png);}
-.user-nav-ntc-icon {background-image: url(../image/user-nav-ntc-icon.png);}
-.user-nav-func-icon {background-image: url(../image/user-nav-func-icon.png);}
-.user-nav-orc-icon {background-image: url(../image/user-nav-orc-icon.png);}
-.user-nav-senha-icon {background-image: url(../image/user-nav-senha-icon.png);}
+.user-nav-emp-icon {background-image: url(../img/user-nav-emp-icon.png);}
+.user-nav-ami-icon {background-image: url(../img/user-nav-ami-icon.png);}
+.user-nav-prod-icon {background-image: url(../img/user-nav-prod-icon.png);}
+.user-nav-serv-icon {background-image: url(../img/user-nav-serv-icon.png);}
+.user-nav-vid-icon {background-image: url(../img/user-nav-vid-icon.png);}
+.user-nav-eve-icon {background-image: url(../img/user-nav-eve-icon.png);}
+.user-nav-img-icon {background-image: url(../img/user-nav-img-icon.png);}
+.user-nav-ntc-icon {background-image: url(.../img/user-nav-ntc-icon.png);}
+.user-nav-func-icon {background-image: url(../img/user-nav-func-icon.png);}
+.user-nav-orc-icon {background-image: url(../img/user-nav-orc-icon.png);}
+.user-nav-senha-icon {background-image: url(../img/user-nav-senha-icon.png);}
 
 .main-header {height: 120px;}
 .main-header .logo {position: absolute; top: 15px; left: 35px;}
@@ -62,7 +62,7 @@ body {font-family: "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Arial"; font-s
 .main-header #itemTypeSel span {font-size: 16px; color: #333; padding-top: 3px; padding-bottom: 3px;}
 
 
-.main-footer {background: url(../image/footer-bkg.png) no-repeat center top; height: 240px; display: block;}
+.main-footer {background: url(../img/footer-bkg.png) no-repeat center top; height: 240px; display: block;}
 .main-footer .nav {position: absolute; left: 190px; }
 .main-footer .nav li {display: inline-block;}
 .main-footer .nav li a {font-size: 15px; margin-right: 10px; color: #333;}
@@ -78,27 +78,27 @@ body {font-family: "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Arial"; font-s
 .acc-box h3 a {height: 30px;}
 .acc-box h3 .ui-icon {position: absolute; right: 10px;}
 
-.acc-hide-icon {background-image: url(../image/acc-hide-icon.png) !important; width: 16px; height: 13px;}
-.acc-show-icon {background-image: url(../image/acc-show-icon.png) !important; width: 16px; height: 13px;}
+.acc-hide-icon {background-image: url(../img/acc-hide-icon.png) !important; width: 16px; height: 13px;}
+.acc-show-icon {background-image: url(../img/acc-show-icon.png) !important; width: 16px; height: 13px;}
 
 .galeria-imagem-icon {background: url(../image/galeria-imagem-icon.png) no-repeat 20px 5px; padding-left: 60px !important;}
 
 .box-decorated {border: none; padding: 0 0 0 0 !important; overflow: hidden; margin-left: 1px;}
-.box-decorated .box-1 {background: url(../image/box-1.png) no-repeat left top; padding: 6px 0 0 0; width: 958px; overflow: hidden;}
-.box-decorated .box-2 {background: url(../image/box-2.png) repeat-y; padding: 5px; overflow: hidden;}
-.box-decorated .box-3 {background: url(../image/box-3.png) no-repeat left bottom; padding-bottom: 11px; overflow: hidden;}
+.box-decorated .box-1 {background: url(../img/box-1.png) no-repeat left top; padding: 6px 0 0 0; width: 958px; overflow: hidden;}
+.box-decorated .box-2 {background: url(../img/box-2.png) repeat-y; padding: 5px; overflow: hidden;}
+.box-decorated .box-3 {background: url(../img/box-3.png) no-repeat left bottom; padding-bottom: 11px; overflow: hidden;}
 
                 
 
-.ui-icon-produtos {background: url(../image/produtos-icon.png) no-repeat;}
-.ui-icon-servicos {background: url(../image/servicos-icon.png) no-repeat;}
-.ui-icon-empresas {background: url(../image/empresas-icon.png) no-repeat;}
-.ui-icon-galeria-imagem {background: url(../image/galeria-image-icon.png) no-repeat;}
-.ui-icon-video {background: url(../image/video-icon.png) no-repeat;}
-.ui-icon-evento {background: url(../image/evento-icon.png) no-repeat;}
-.ui-icon-perfil {background: url(../image/perfil-icon.png) no-repeat;}
-.ui-icon-orcamento {background: url(../image/orcamentos-icon.png) no-repeat;}
-.ui-icon-amigo {background: url(../image/amigos-icon.png) no-repeat;}
+.ui-icon-produtos {background: url(../img/produtos-icon.png) no-repeat;}
+.ui-icon-servicos {background: url(../img/servicos-icon.png) no-repeat;}
+.ui-icon-empresas {background: url(../img/empresas-icon.png) no-repeat;}
+.ui-icon-galeria-imagem {background: url(../img/galeria-image-icon.png) no-repeat;}
+.ui-icon-video {background: url(../img/video-icon.png) no-repeat;}
+.ui-icon-evento {background: url(../img/evento-icon.png) no-repeat;}
+.ui-icon-perfil {background: url(../img/perfil-icon.png) no-repeat;}
+.ui-icon-orcamento {background: url(../img/orcamentos-icon.png) no-repeat;}
+.ui-icon-amigo {background: url(../img/amigos-icon.png) no-repeat;}
 
 
 
@@ -142,7 +142,7 @@ fieldset label {display: block;}
 .prc-vnd-ant {text-decoration: line-through;}
 .prom-box span.prc-vnd {display: block;}
 
-.separator2 {background: url(../image/sep2-bkg.png) repeat-x; height: 8px; width: 100%;}
+.separator2 {background: url(../img/sep2-bkg.png) repeat-x; height: 8px; width: 100%;}
 
 
 .list-col {display: table;}
@@ -240,14 +240,14 @@ fieldset label {display: block;}
 .ui-tabs-nav .ui-icon {position: absolute; top: 12px; right: 18px;}
 
 .nav-tab ul li.ui-state-active,
-.ui-tabs-nav li.ui-state-active {background-image: url(../image/bkg-btn-hover.png) !important; background-position: center bottom;}
+.ui-tabs-nav li.ui-state-active {background-image: url(../img/bkg-btn-hover.png) !important; background-position: center bottom;}
 
 .ui-accordion .ui-accordion-header.ui-state-default,
 .ui-accordion .ui-accordion-header.ui-state-active,
 .ui-accordion .ui-accordion-header.ui-state-hover, 
 .ui-accordion .ui-accordion-header.ui-state-focus,
 .ui-tabs-nav,
-.nav-tab ul {background-image: url(../image/bkg-nav-tab.png); background-color: transparent; background-position: center bottom; border-color: #B9B9B9;}
+.nav-tab ul {background-image: url(../img/bkg-nav-tab.png); background-color: transparent; background-position: center bottom; border-color: #B9B9B9;}
 
 
 
@@ -255,33 +255,33 @@ fieldset label {display: block;}
 a.button, a.button.blue, a.button.green, a.button.red {padding: 0; margin: 0; height: 30px;}
 a.button .ui-button-text {padding: 4px 10px 0 10px; margin: 0;}
 
-.blue.ui-state-default { background-image: url(../image/bkg-btn-blue.png) !important; border-color: #1663E2 !important;}
+.blue.ui-state-default { background-image: url(../img/bkg-btn-blue.png) !important; border-color: #1663E2 !important;}
 .blue.ui-state-hover, 
 .blue.ui-state-focus,
 .blue.ui-state-selected,
 .blue:hover,
-.blue:focus {background-image: url(../image/bkg-btn-blue-hover.png) !important; border-color: #6A99E6 !important;}
+.blue:focus {background-image: url(../img/bkg-btn-blue-hover.png) !important; border-color: #6A99E6 !important;}
 
-.green.ui-state-default { background-image: url(../image/bkg-btn-green.png) !important; border-color: #2DE018 !important;}
+.green.ui-state-default { background-image: url(../img/bkg-btn-green.png) !important; border-color: #2DE018 !important;}
 .green.ui-state-hover, 
 .green.ui-state-focus,
 .green.ui-state-selected,
 .green:hover,
-.green:focus {background-image: url(../image/bkg-btn-green-hover.png) !important; border-color: #54EB43 !important;}
+.green:focus {background-image: url(../img/bkg-btn-green-hover.png) !important; border-color: #54EB43 !important;}
 .green.ui-button, .green.ui-button span, .blue.ui-button, .blue.ui-button span {color: #fff !important; font-size: 14px; font-weight: bold; }
 
-.red.ui-state-default { background-image: url(../image/bkg-btn-red.png) !important; border-color: #B20000 !important;}
+.red.ui-state-default { background-image: url(../img/bkg-btn-red.png) !important; border-color: #B20000 !important;}
 .red.ui-state-hover, 
 .red.ui-state-focus,
 .red.ui-state-selected,
 .red:hover,
-.red:focus {background-image: url(../image/bkg-btn-red-hover.png) !important; border-color: #FF4848 !important;}
+.red:focus {background-image: url(../img/bkg-btn-red-hover.png) !important; border-color: #FF4848 !important;}
 .red.ui-button, .red.ui-button span, .red.ui-button, .red.ui-button span {color: #fff !important; font-size: 14px; font-weight: bold;}
 
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background-image: url(../image/bkg-btn.png); border-color: #B9B9B9; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background-image: url(../img/bkg-btn.png); border-color: #B9B9B9; }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {border-color: #666666;}
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { background-image: url(../image/bkg-btn-hover.png); border-color: #666666;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { background-image: url(../img/bkg-btn-hover.png); border-color: #666666;}
 
 
 
