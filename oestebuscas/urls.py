@@ -6,11 +6,10 @@ admin.autodiscover()
 
 urlpatterns = patterns('oestebuscas.inicial.views',
     url(r'^$','inicial',name='inicial'),
+    url(r'^admin/', include(admin.site.urls)),
     # Examples:
     # url(r'^$', 'oestebuscas.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
-    #url(r'^admin/', include(admin.site.urls)),
 )
 
 urlpatterns += patterns('django.views.static',
