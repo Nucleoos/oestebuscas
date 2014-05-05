@@ -4,3 +4,4 @@ Unipath
 gunicorn
 psycopg2
 django-mptt
+sorl-thumbnail

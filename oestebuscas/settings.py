@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'oestebuscas.inicial',
     'mptt',
+    'sorl.thumbnail',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -63,12 +64,12 @@ WSGI_APPLICATION = 'oestebuscas.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': PROJECT_DIR.child('database.db'),
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME': 'oestebuscas',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 

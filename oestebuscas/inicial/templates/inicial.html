@@ -1,4 +1,4 @@
-
+{% load thumbnail %}
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -187,76 +187,20 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
         <h3><a class="galeria-imagem-icon">Galeria de Imagens</a></h3>
         <div class="box-decorated" style="overflow: hidden;">
             <ul id="galeria-imagem-box">
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=80">
-                            <img alt="imagem" src="static/img/5970_t.jpg"/>
-                            <span>3ª Open Rio - Rio Branco - MT</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=79">
-                            <img alt="imagem" src="static/img/5870_t.jpg"/>
-                            <span>Show Bruno e Marrone</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=78">
-                            <img alt="imagem" src="static/img/5611_t.jpg"/>
-                            <span>Pedro Paulo e Alex - Mirassol D'Oeste</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=77">
-                            <img alt="imagem" src="static/img/5500_t.jpg"/>
-                            <span>Pedro Paulo e Alex - Pontes e Lacerda</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=76">
-                            <img alt="imagem" src="static/img/5479_t.jpg"/>
-                            <span>48ª ExpoCáceres - Breno e Barreto</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=75">
-                            <img alt="imagem" src=".static/img/5389_t.jpg"/>
-                            <span>48ª ExpoCáceres - Bruninho e Davi</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=74">
-                            <img alt="imagem" src="static/img/5205_t.jpg"/>
-                            <span>48ª ExpoCáceres - Jads e Jadson</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=73">
-                            <img alt="imagem" src=".static/img/5138_t.jpg"/>
-                            <span>48ª ExpoCácres - Mato Grosso e Mathias</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=72">
-                            <img alt="imagem" src="static/img/4955_t.jpg"/>
-                            <span>48ª ExpoCáceres - Michel Teló</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=71">
-                            <img alt="imagem" src="static/img/4861_t.jpg"/>
-                            <span> 1ª Feira Multisetorial e o 2º Festival de Flores</span>
-                        </a>
-                    </li>
+                {% for fotos in galeria %}
+                <li>
+                    <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=80">
+                        <img alt="imagem" src="{{ STATIC_MEDIA}}/galeria/{{ imagem.imagem }}"/>
+                        <span>{{ fotos.titulo }}</span>
+                    </a>
+                </li>
+                {% empty for %}
+                <li>
+                    <a href="../../public/pages/empresa-galeria-imagem-view.aspx?id_emp=0&id=80">
+                        <img alt="imagem" src="static/img/5970_t.jpg"/>
+                        <span>3ª Open Rio - Rio Branco - MT</span>
+                    </a>
+                </li>
 
             </ul>
         </div>
