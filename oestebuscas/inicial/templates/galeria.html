@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load thumbnail %}
+    <style type="text/css">
+        .emp-master-cntt .cntt-tab-box {padding-top: 10px; }
+
+        .emp-master-cntt .addthis_toolbox {position: absolute; top: 50px; left: 0; width: 350px;}
+        .emp-master-cntt .op-box {position: absolute; top: 50px; right: 0; display: table; text-align: right;}
+        .emp-master-cntt .op-box a.button {margin-left: 5px; height: 25px;}
+        .emp-master-cntt .op-box a.button .ui-button-text {padding: 3px 5px 2px 5px;}
+
+        #rec-vc-gallery .list-item .item .img-cntt img {width: 80px;}
+    </style>
+
+    <script type="text/javascript" language="javascript">
+        $(function () {
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        hs.graphicsDir = '../../public/resource/image/highslide/';
+        hs.align = 'center';
+        hs.transitions = ['expand', 'crossfade'];
+        hs.fadeInOut = true;
+        hs.dimmingOpacity = 0.8;
+        hs.outlineType = 'rounded-white';
+        hs.captionEval = 'this.thumb.alt';
+        hs.marginBottom = 105; // make room for the thumbstrip and the controls
+        hs.numberPosition = 'caption';
+
+        // Add the slideshow providing the controlbar and the thumbstrip
+        hs.addSlideshow({
+            interval: 5000,
+            repeat: false,
+            useControls: true,
+            overlayOptions: {
+                className: 'text-controls',
+                position: 'bottom center',
+                relativeTo: 'viewport',
+                offsetY: -60
+            },
+            thumbstrip: {
+                position: 'bottom center',
+                mode: 'horizontal',
+                relativeTo: 'viewport'
+            }
+        });
+
+        // Cancel the default action for image click and do next instead
+        hs.Expander.prototype.onImageClick = function () {
+            return hs.next();
+        };
+    </script>
+    <title>Galeria:: {{ galeria.titulo }}</title>
+    <meta name="keywords" content="Cavalgada - Salto do Céu 2014," />
+    <meta property="og:image" content="http://www.oestebuscas.com.br/data/album/83/6183_t.jpg" />
+    <meta property="og:title" content="Oeste Buscas :: Cavalgada - Salto do Céu 2014" />
+    <meta property="og:description" content="Cavalgada - Salto do Céu 2014" />
+
+        <div class="inner-box">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style ">
+                <a class="addthis_button_preferred_1"></a>
+                <a class="addthis_button_facebook_like" ></a>
+                <a class="addthis_button_tweet"></a>
+                <a class="addthis_button_preferred_4"></a>
+                <a class="addthis_counter addthis_pill_style"></a>
+            </div>
+            <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-503791b7010739af"></script>
+            <!-- AddThis Button END -->
+        </div>
+
+
+        <div class="inner-box nav-tab">
+
+
+
+            <div class="cntt-tab-box">
+
+
+
+    <h1>{{ galeria.titulo }}</h1>
+    <span>{{ galeria.publicacao }} - {{ galeria.descricao }}</span>
+    <br />
+    <br />
+    <div style="text-align: center;">
+    {% for i in imagens %}
+        <a class="highslide" href="{{ MEDIA_URL }}{{ i.imagem }}" onclick="return hs.expand(this)">
+            {% thumbnail i.imagem "120x100" crop="center" as im %}
+                <img src='{{ im.url }}' width="{{ thumb.width }}" height="{{ thumb.height }}" alt="{{ recipe.title }}"/>
+            {% endthumbnail %}
+        </a>
+        {% empty for %}
+    </div>
+    <div>
+
+     <!--
+        Recomendado para voce
+     -->
+
+    </div>
+{% endblock content %}

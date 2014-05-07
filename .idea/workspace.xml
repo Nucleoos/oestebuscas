@@ -23,13 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="50" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="42" selection-start="1069" selection-end="1107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state line="42" column="18" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="735">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,16 +44,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oestebuscas/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="19" selection-start="1147" selection-end="1161" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="1515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="75" selection-end="75" vertical-scroll-proportion="0.09463722" vertical-offset="0" max-vertical-offset="951">
+            <state line="28" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -55,19 +53,30 @@
       <file leaf-file-name="inicial.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="45" selection-start="9701" selection-end="9701" vertical-scroll-proportion="-13.125" vertical-offset="2580" max-vertical-offset="11490">
+            <state line="10" column="52" selection-start="444" selection-end="444" vertical-scroll-proportion="1.25" vertical-offset="180" max-vertical-offset="7830">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="6" selection-start="4341" selection-end="4341" vertical-scroll-proportion="-0.3409091" vertical-offset="1440" max-vertical-offset="3870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/views.py">
+      <file leaf-file-name="galeria.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/galeria.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding>
-                <element signature="e#15#50#0" expanded="true" />
-              </folding>
+            <state line="94" column="23" selection-start="3584" selection-end="3584" vertical-scroll-proportion="-58.75" vertical-offset="0" max-vertical-offset="1650">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,21 +94,23 @@
         <option value="$PROJECT_DIR$/oestebuscas/inicial/static/css/jcarousel.css" />
         <option value="$PROJECT_DIR$/oestebuscas/inicial/static/css/fileuploader.css" />
         <option value="$PROJECT_DIR$/oestebuscas/inicial/static/css/main.css" />
-        <option value="$PROJECT_DIR$/oestebuscas/urls.py" />
         <option value="$PROJECT_DIR$/oestebuscas/inicial/models.py" />
         <option value="$PROJECT_DIR$/oestebuscas/inicial/admin.py" />
-        <option value="$PROJECT_DIR$/oestebuscas/inicial/views.py" />
-        <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html" />
-        <option value="$PROJECT_DIR$/oestebuscas/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/oestebuscas/inicial/views.py" />
+        <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/base.html" />
+        <option value="$PROJECT_DIR$/oestebuscas/urls.py" />
+        <option value="$PROJECT_DIR$/oestebuscas/settings.py" />
+        <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html" />
+        <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/galeria.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,6 +221,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -355,7 +368,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -370,12 +383,31 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18867925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -394,21 +426,38 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="18" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="113" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="735">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="22" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="735">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -425,9 +474,7 @@
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="8" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="540">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -454,9 +501,7 @@
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -483,9 +528,7 @@
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -497,11 +540,6 @@
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="35" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="16" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="12330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/static/css/jquery-ui-1.8.17.custom.css">
@@ -544,11 +582,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oestebuscas/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="542" selection-end="542" vertical-scroll-proportion="0.2681388" vertical-offset="0" max-vertical-offset="951" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/lib/python2.7/site-packages/django/contrib/admin/options.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="380" column="4" selection-start="15980" selection-end="15980" vertical-scroll-proportion="0.33333334" vertical-offset="4768" max-vertical-offset="25245" />
@@ -559,41 +592,58 @@
         <state line="6" column="36" selection-start="192" selection-end="192" vertical-scroll-proportion="0.09463722" vertical-offset="0" max-vertical-offset="951" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="42" selection-start="1069" selection-end="1107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.110410094" vertical-offset="0" max-vertical-offset="951" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding>
-            <element signature="e#15#50#0" expanded="true" />
-          </folding>
+        <state line="10" column="50" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html">
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="45" selection-start="9701" selection-end="9701" vertical-scroll-proportion="-13.125" vertical-offset="2580" max-vertical-offset="11490">
+        <state line="42" column="18" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="19" selection-start="1147" selection-end="1161" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="1515">
+        <state line="28" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/galeria.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="75" selection-end="75" vertical-scroll-proportion="0.09463722" vertical-offset="0" max-vertical-offset="951">
+        <state line="94" column="23" selection-start="3584" selection-end="3584" vertical-scroll-proportion="-58.75" vertical-offset="0" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="52" selection-start="444" selection-end="444" vertical-scroll-proportion="1.25" vertical-offset="180" max-vertical-offset="7830">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="6" selection-start="4341" selection-end="4341" vertical-scroll-proportion="-0.3409091" vertical-offset="1440" max-vertical-offset="3870">
           <folding />
         </state>
       </provider>

@@ -3,5 +3,9 @@ from django.shortcuts import render
 from oestebuscas.inicial.models import Galeria,Imagem
 
 def inicial(request):
-    context = {'galeria': Galeria.objects.all()[0:10],'imagem': Imagem.objects.all()[0:1]}
+    context = dict(fotos=Imagem.objects.all().order_by('galeria__id', 'galeria__publicacao').distinct('galeria__id')[0:10])
     return render(request, 'inicial.html',context)
+
+def galeria(request,slug):
+    context = dict(galeria=Galeria.objects.get(slug=slug),imagens=Imagem.objects.filter(galeria__slug=slug))
+    return render(request, 'galeria.html',context)

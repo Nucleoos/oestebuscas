@@ -26,6 +26,7 @@ SECRET_KEY = 'zcrr9dtq4x^4+$gj2jr_%e%)u-8ll*0r27wp+*kcx)p+gwvb85'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+THUMBNAIL_DEBUG = True
 
 ALLOWED_HOSTS = []
 
