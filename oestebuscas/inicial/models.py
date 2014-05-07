@@ -15,7 +15,7 @@ class Categorias(MPTTModel):
 
 class Galeria(models.Model):
     class Meta:
-        ordering = ('titulo',)
+        ordering = ('publicacao','titulo',)
 
     titulo = models.CharField(max_length=100)
     slug = models.SlugField(max_length=100, blank=True, unique=True)
@@ -42,3 +42,15 @@ class Imagem(models.Model):
 
     def __unicode__(self):
         return self.titulo
+
+class Noticia(models.Model):
+    class Meta:
+        ordering = ('publicacao','titulo',)
+
+    titulo = models.CharField(max_length=100)
+    slug = models.SlugField(max_length=100, blank=True, unique=True)
+    palavra_chave = models.CharField(max_length=100, null=True, blank=True,)
+    categoria = models.ManyToManyField('Categorias')
+    descricao = models.CharField(blank=True, null=True, max_length=250)
+    publicacao = models.DateTimeField(default=datetime.now, blank=True)
+    texto = models.TextField()

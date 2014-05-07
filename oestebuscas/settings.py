@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'oestebuscas.inicial',
     'mptt',
     'sorl.thumbnail',
+    'django_summernote',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -72,6 +73,45 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
+}
+
+SUMMERNOTE_CONFIG = {
+    # Using SummernoteWidget - iframe mode
+    'iframe': True,  # or set False to use SummernoteInplaceWidget - no iframe mode
+
+    # Using Summernote Air-mode
+    'airMode': False,
+
+    # Change editor size
+    'width': '100%',
+    'height': '480',
+
+    # Set editor language/locale
+    'lang': 'pt-BR',
+
+    # Customize toolbar buttons
+    #'toolbar': [
+    #    ['style', ['style']],
+    #    ['style', ['bold', 'italic', 'underline', 'clear']],
+    #   ['para', ['ul', 'ol', 'height']],
+    #    ['insert', ['link']],
+    #],
+
+    # Set `upload_to` function for attachments.
+    #'attachment_upload_to': my_custom_upload_to_func(),
+
+    # Set custom storage class for attachments.
+    #'attachment_storage_class': 'my.custom.storage.class.name',
+
+    # Set external media files for SummernoteInplaceWidget.
+    #'inplacewidget_external_css': (
+    #    '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.no-icons.min.css',
+    #    '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css',
+    #),
+    #'inplacewidget_external_js': (
+    #    '//code.jquery.com/jquery-1.9.1.min.js',
+    #    '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js',
+    #),
 }
 
 # Internationalization

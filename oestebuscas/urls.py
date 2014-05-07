@@ -1,13 +1,14 @@
 from django.conf.urls import patterns, include, url
 from django.conf import settings
-
 from django.contrib import admin
+
 admin.autodiscover()
 
 urlpatterns = patterns('oestebuscas.inicial.views',
     url(r'^$','inicial',name='inicial'),
     url(r'^galeria/(?P<slug>[\w-]+)$','galeria',name='galeria'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^summernote/', include('django_summernote.urls')),
     # Examples:
     # url(r'^$', 'oestebuscas.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
