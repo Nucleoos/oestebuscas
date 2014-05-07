@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="585">
+            <state line="32" column="46" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.51282054" vertical-offset="0" max-vertical-offset="936">
               <folding>
                 <element signature="e#17#49#0" expanded="true" />
               </folding>
@@ -46,31 +46,9 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="56" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-31.8" vertical-offset="0" max-vertical-offset="915">
+            <state line="56" column="47" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-33.6" vertical-offset="0" max-vertical-offset="930">
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oestebuscas/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="18" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.32692307" vertical-offset="1029" max-vertical-offset="2145">
-              <folding>
-                <element signature="e#322#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oestebuscas/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,10 +72,10 @@
         <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/base.html" />
         <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/inicial.html" />
         <option value="$PROJECT_DIR$/oestebuscas/inicial/templates/galeria.html" />
-        <option value="$PROJECT_DIR$/oestebuscas/inicial/models.py" />
         <option value="$PROJECT_DIR$/oestebuscas/urls.py" />
-        <option value="$PROJECT_DIR$/oestebuscas/inicial/admin.py" />
         <option value="$PROJECT_DIR$/oestebuscas/settings.py" />
+        <option value="$PROJECT_DIR$/oestebuscas/inicial/models.py" />
+        <option value="$PROJECT_DIR$/oestebuscas/inicial/admin.py" />
       </list>
     </option>
   </component>
@@ -654,24 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="56" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-31.8" vertical-offset="0" max-vertical-offset="915">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#17#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="480">
@@ -683,9 +643,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oestebuscas/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="18" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.32692307" vertical-offset="1029" max-vertical-offset="2145">
+        <state line="96" column="29" selection-start="2529" selection-end="2529" vertical-scroll-proportion="1.5384616" vertical-offset="0" max-vertical-offset="2145">
           <folding>
             <element signature="e#322#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="47" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-33.6" vertical-offset="0" max-vertical-offset="930">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oestebuscas/inicial/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="46" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.51282054" vertical-offset="0" max-vertical-offset="936">
+          <folding>
+            <element signature="e#17#49#0" expanded="true" />
           </folding>
         </state>
       </provider>

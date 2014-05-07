@@ -30,5 +30,6 @@ class NoticiaAdmin(SummernoteModelAdmin):
     #date_hierarchy = 'publicacao'
     search_fields = ('titulo','categoria','descricao','publicacao')
     list_filter = ['publicacao']
+    prepopulated_fields = {'slug':('titulo',)}
 
 admin.site.register(Noticia,NoticiaAdmin)

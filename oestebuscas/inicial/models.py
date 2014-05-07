@@ -54,3 +54,4 @@ class Noticia(models.Model):
     descricao = models.CharField(blank=True, null=True, max_length=250)
     publicacao = models.DateTimeField(default=datetime.now, blank=True)
     texto = models.TextField()
+    galeria = models.ManyToManyField('Galeria')

@@ -90,12 +90,12 @@ SUMMERNOTE_CONFIG = {
     'lang': 'pt-BR',
 
     # Customize toolbar buttons
-    #'toolbar': [
-    #    ['style', ['style']],
-    #    ['style', ['bold', 'italic', 'underline', 'clear']],
-    #   ['para', ['ul', 'ol', 'height']],
-    #    ['insert', ['link']],
-    #],
+    'toolbar': [
+        ['style', ['style']],
+        ['style', ['bold', 'italic', 'underline', 'clear']],
+        ['para', ['ul', 'ol', 'height']],
+        ['insert', ['link']],
+    ],
 
     # Set `upload_to` function for attachments.
     #'attachment_upload_to': my_custom_upload_to_func(),
